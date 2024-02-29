@@ -1,8 +1,14 @@
 import React from 'react'
-import './Matches.css'
+import CurrentM from './CurrentM'
+import { Box } from '@mui/material'
+import AllMatch from './AllMatch'
+
 const Matches = () => {
   return (
-    <div>Matches</div>
+    <Box sx={{padding:{xs:"80px 40px",sm:"100px 40px"}}}>
+      <CurrentM/>
+      <AllMatch/>
+    </Box>
   )
 }
 
