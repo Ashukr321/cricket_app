@@ -1,6 +1,5 @@
 .hero {
   background-image: url('https://cdn.pixabay.com/photo/2023/12/09/03/27/ai-generated-8438544_1280.jpg');
-  height: 90vh; /* Use viewport height instead of percentage for full-screen */
   width: 100%;
   background-position: center;
 }
