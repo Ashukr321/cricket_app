@@ -8,12 +8,13 @@ const Hero = () => {
     Aos.init();
   });
   return (
-    <Box className="hero" sx={{ minHeight: "100vh" }}>
+    <Box className="hero" minHeight={"100vh"}  >
       <Stack
         sx={{
-          padding: { xs: "80px 40px", sm: "100px 40px" },
+          marginTop:"1.5rem",
+          padding: { xs: "0px 40px", sm: "150px 40px" },
           position: "absolute",
-          height:"90vh"
+          height:"100%"
         }}
         justifyContent={"center"}
         data-aos="zoom-out-right"
