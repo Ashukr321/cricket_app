@@ -40,6 +40,7 @@ const Hero = () => {
         }}
         justifyContent={"center"}
         data-aos="zoom-out-right"
+        height={"100%"}
       >
         <Typography
           sx={{
