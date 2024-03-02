@@ -11,7 +11,6 @@ const CurrentMatchesCard = ({
   matchType,
   date,
   team1_name,
-  team1_score,
   status,
   venue,
   t2
@@ -47,8 +46,7 @@ const CurrentMatchesCard = ({
             <span style={{ fontWeight: "bold", color: "black" }}>
               {team1_name}{" "}
             </span>{" "}
-            score:r:{team1_score.r} w:{team1_score.w} o:{team1_score.o} inning:
-            {team1_score.inning}
+          
           </Typography>
           <Typography variant="body1">
             {venue}

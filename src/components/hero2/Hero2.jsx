@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Box, Grid, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Hero2 = () => {
+
+  useEffect(()=>{
+    Aos.init();
+  })
   return (
     <Box>
       <Grid
@@ -22,7 +28,7 @@ const Hero2 = () => {
           />
         </Grid>
 
-        <Grid item xs={12} sm={5} sx={{ padding: "2rem 0" }}>
+        <Grid item xs={12} sm={5} sx={{ padding: "2rem 0" }} data-aos="zoom-in">
           <Typography
             variant="h3"
             sx={{

@@ -10,6 +10,7 @@ import Squad from "./pages/squad/Squad";
 import Cricket from "./pages/cricket/Cricket";
 import Players from "./pages/players/Players";
 import Matches from "./pages/matches/Matches";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -25,7 +26,9 @@ const App = () => {
           <Route path="/squad" element={<Squad />} />
           <Route path="/series" element={<Series />} />
         </Routes>
+        <Footer/>
       </Router>
+    
     </Box>
   );
 };
