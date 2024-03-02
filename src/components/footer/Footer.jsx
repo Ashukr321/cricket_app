@@ -25,8 +25,9 @@ const Footer = () => {
     }, 2000);
   };
 
+  
   return (
-    <Box sx={{ backgroundColor: "#000" }}>
+    <Box sx={{ backgroundColor: "#182C61" }}>
       <Grid container>
         <Grid item xs={12} sm={4}>
           <Stack padding={2} gap={1}>

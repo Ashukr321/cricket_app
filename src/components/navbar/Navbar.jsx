@@ -42,7 +42,7 @@ const Navbar = () => {
     <div>
       {/* Top navigation stack */}
       <Stack
-        backgroundColor="#1565C0"
+        backgroundColor="#182C61"
         direction={"row"}
         alignItems={"center"}
         padding={"12px 24px"}
@@ -50,8 +50,8 @@ const Navbar = () => {
         sx={{ color: "white" ,position:"fixed",width:"100%",zIndex:"200"}}
       >
 
-        {/* Brand/logo */}
-        <Box>
+      {/* Brand/logo */}
+      <Box>
           <Link to="/">
             <Button
               sx={{ color: "white", letterSpacing: ".2em", fontWeight: "bold" }}
