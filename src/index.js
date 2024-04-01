@@ -10,6 +10,8 @@ import { CricketListProvider } from "./context/cricket/cricketseries";
 import { CricketSearchContextProvider } from "./context/cricket/cricketSeriesSearch";
 import { SeriesContextProvider } from "./context/series/series";
 
+
+
 // Create a root using ReactDOM.createRoot and target the root element with the id "root"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
