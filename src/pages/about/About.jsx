@@ -1,7 +1,8 @@
 import React from 'react';
 import './About.css';
 import CompanyGrid from './CompanyGrid';
-
+import Statistic from './Statistic';
+import Team from './Team';
 const About = () => {
   return (
     <>
@@ -22,7 +23,10 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Statistic/>
       <CompanyGrid />
+      <Team/>
+
     </>
   );
 };
