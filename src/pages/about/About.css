@@ -1,0 +1,15 @@
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-image img {
+  animation: moveUpDown 2s infinite alternate;
+}
